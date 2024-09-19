@@ -2,78 +2,65 @@
     "skills":[
         {
             "id":1,
-            "src":"",
-            "title":"Front-End",
+            "src":"./img/htmll.png",
+            "title":"HTML",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
         },
         {
             "id":2,
-            "src":"",
-            "title":"Back-End",
+            "src":"./img/cs.jpg",
+            "title":"CSS",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
         },
         {
             "id":3,
-            "src":"",
-            "title":"UI & UX Design",
+            "src":"./img/oldjs.png",
+            "title":"JAVASCRIPT",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
         },
         {
             "id":4,
-            "src":"",
-            "title":"Webflow Development",
+            "src":"./img/reactjs.jpg",
+            "title":"REACT.JS",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
-        }
+        },
+        {
+          "id":5,
+          "src":"./img/firebase.png",
+          "title":"FIREBASE",
+          "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
+      }
+        
     ],
 
     "portfolio": [
         {
           "id": "1",
-          "src": "./img/placeholder-image.png",
-          "title": "Ahuse",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "title": "Omnifood",
+          "description": " The smart 365-days-per-year food subscription that will make you eat healthy again.  Based on your personal tastes and nutritional needs. ",
+          "linkText": "View In Vercel",
+          "url" : "https://ex-and-zero.netlify.app"
         },
         {
           "id": "2",
-          "src": "./img/placeholder-image-1.png",
-          "title": "App Dashboard",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "title": "ToDoApp",
+          "description": " A management app at enhancing productivity & to organise your daily task with their specific login credentials and your own account. ",
+          "linkText": "View In Vercel",
+          "url":"https://to-do-app-iota-drab.vercel.app/main"
         },
         {
           "id": "3",
-          "src": "./img/placeholder-image-2.png",
-          "title": "Easy Rentn",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
-        }
-      ],
-
-      "testimonial": [
-        {
-          "id": "1",
-          "count": "5",
-          "src": "./img/avatar-image.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Dianne Russel",
-          "author_designation": "Starbucks"
+          "title": "Contact App",
+          "description": " An easy app designed to streamline your personal & professional contacts with ability to store contacts and customized login function . ",
+          "linkText": "View In Vercel",
+          "url": "https://contact-app-sigma-one.vercel.app/login"
         },
         {
-          "id": "2",
-          "count": "5",
-          "src": "./img/avatar-image-1.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Kristin Watson",
-          "author_designation": "Louis Vuitton"
-        },
-        {
-          "id": "3",
-          "count": "5",
-          "src": "./img/avatar-image-2.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Kathryn Murphy",
-          "author_designation": "McDonald's"
+          "id": "4",
+          "title": "Weather App",
+          "description": "A user-friendly app designed to provide real-time weather updates, allowing users to easily customize their location settings.",
+          "linkText": "View In Vercel",
+          "url": "https://weather-app-eight-zeta-74.vercel.app/"
         }
       ]
 }

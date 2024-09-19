@@ -1,12 +1,13 @@
 import { Link } from "react-scroll";
 import React from "react";
+// import footerLogo from "../../../public/img/logo.jpg";
 
 function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img className="footer-img" src="./img/logo.jpg" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -60,19 +61,6 @@ function Footer() {
                 className="text-md"
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
               </Link>
             </li>
           </ul>
@@ -146,7 +134,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/mohsinali-asifali-shaikh-0b9a52279/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,7 +160,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Mohsinali</p>
         <div className="footer--social--icon">
           <ul>
             <li>

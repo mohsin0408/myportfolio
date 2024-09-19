@@ -6,10 +6,11 @@ export default function ContactMe() {
           <p className="sub--title">Get In Touch</p>
           <h2>Contact Me</h2>
           <p className="text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          I am always open to new opportunities and collaborations.
           </p>
         </div>
-        <form className="contact--form--container">
+        <form className="contact--form--container"
+         action="https://formspree.io/f/mrgnwlqk"  method="POST">
           <div className="container">
             <label htmlFor="first-name" className="contact--label">
               <span className="text-md">First Name</span>
