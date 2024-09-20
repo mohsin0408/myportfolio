@@ -754,9 +754,6 @@ input[type="checkbox"] {
   .about--section{
     padding: 0 5px;
   }
-}
-
-@media (max-width:340px){
   .navbar{
     padding: 17px 23px;
   }
