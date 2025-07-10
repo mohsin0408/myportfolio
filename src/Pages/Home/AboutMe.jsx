@@ -1,22 +1,28 @@
 // import img3 from "./public/img/person.jpg"
 
-export default function AboutMe(){
-    return<section id="AboutMe" className="about--section">
-        {/* <div className="about--section--img">
+export default function AboutMe() {
+  return (
+    <section id="AboutMe" className="about--section">
+      {/* <div className="about--section--img">
             <img src={img3} alt="myphoto"/>
         </div> */}
-        <div className="hero--section--content--box about--section--box">
-            <p className="hero--section--box">About</p>
-            <h1 className="skills--section--heading">About Me</h1>
-            <p className="hero--section--description about-description ">
-            I started my web development journey with basic technologies like HTML, CSS, JS and later move to learn js library like React.js.
-            </p>
-            <p className="hero--section--description about-description ">
-            Then I move on to joint Mak Byte as Frontend Intern for 9 months which eventually became a core base for my career which will lead to my future goals.
-            </p>
-            <p className="hero--section--description about-description ">
-            Along with my 9 months of Internship experience and projects which I have mentioned below I also have a certificate from udemy for completion of frontend language course.
-            </p>
-        </div>
+      <div className="hero--section--content--box about--section--box">
+        <p className="hero--section--box">About</p>
+        <h1 className="skills--section--heading">About Me</h1>
+        <p className="hero--section--description about-description ">
+          I'm a Software Developer specializing in frontend development with 1+
+          years of experience.
+        </p>
+        <p className="hero--section--description about-description ">
+          I'm passionate about creating intuitive and user-friendly applications
+          that solve real-world problems.
+        </p>
+        <p className="hero--section--description about-description ">
+          I'm always looking for new and exciting projects to work on and Eager
+          to bring problem-solving and collaboration skills to an innovative
+          team.
+        </p>
+      </div>
     </section>
+  );
 }

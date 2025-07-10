@@ -1,67 +1,65 @@
 {
-    "skills":[
-        {
-            "id":1,
-            "src":"./img/htmll.png",
-            "title":"HTML",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
-        },
-        {
-            "id":2,
-            "src":"./img/cs.jpg",
-            "title":"CSS",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
-        },
-        {
-            "id":3,
-            "src":"./img/oldjs.png",
-            "title":"JAVASCRIPT",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
-        },
-        {
-            "id":4,
-            "src":"./img/reactjs.jpg",
-            "title":"REACT.JS",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
-        },
-        {
-          "id":5,
-          "src":"./img/firebase.png",
-          "title":"FIREBASE",
-          "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
-      }
-        
-    ],
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/htmll.png",
+      "title": "HTML",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
+    },
+    {
+      "id": 2,
+      "src": "./img/cs.jpg",
+      "title": "CSS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
+    },
+    {
+      "id": 3,
+      "src": "./img/oldjs.png",
+      "title": "JAVASCRIPT",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
+    },
+    {
+      "id": 4,
+      "src": "./img/reactjs.jpg",
+      "title": "REACT.JS",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
+    },
+    {
+      "id": 5,
+      "src": "./img/firebase.png",
+      "title": "FIREBASE",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo."
+    }
+  ],
 
-    "portfolio": [
-        {
-          "id": "1",
-          "title": "Omnifood",
-          "description": " The smart 365-days-per-year food subscription that will make you eat healthy again.  Based on your personal tastes and nutritional needs. ",
-          "linkText": "View In Vercel",
-          "url" : "https://ex-and-zero.netlify.app"
-        },
-        {
-          "id": "2",
-          "title": "ToDoApp",
-          "description": " A management app at enhancing productivity & to organise your daily task with their specific login credentials and your own account. ",
-          "linkText": "View In Vercel",
-          "url":"https://to-do-app-iota-drab.vercel.app/main"
-        },
-        {
-          "id": "3",
-          "title": "Contact App",
-          "description": " An easy app designed to streamline your personal & professional contacts with ability to store contacts and customized login function . ",
-          "linkText": "View In Vercel",
-          "url": "https://contact-app-sigma-one.vercel.app/login"
-        },
-        {
-          "id": "4",
-          "title": "Weather App",
-          "description": "A user-friendly app designed to provide real-time weather updates, allowing users to easily customize their location settings.",
-          "linkText": "View In Vercel",
-          "url": "https://weather-app-eight-zeta-74.vercel.app/"
-        }
-      ]
+  "portfolio": [
+    {
+      "id": "1",
+      "title": "Omnifood",
+      "description": " The smart 365-days-per-year food subscription that will make you eat healthy again.  Based on your personal tastes and nutritional needs. ",
+      "linkText": "View In Netlify",
+      "url": "https://new-omnifood-netlify-site.netlify.app/"
+    },
+    {
+      "id": "2",
+      "title": "Disney Clone",
+      "description": " A clone of the Disney+ Hotstar interface featuring modern UI components, route-based navigation, and responsive design. ",
+      "linkText": "View In Vercel",
+      "url": "https://disney-clone-c-six.vercel.app/"
+    },
+    {
+      "id": "3",
+      "title": "Academind Clone",
+      "description": " An inspiring clone of Academind Pro Membership closely mirroring the real version experience with tech like redux, stripe and more. ",
+      "linkText": "View In Vercel",
+      "url": "https://acade-clone.vercel.app/"
+    },
+    {
+      "id": "4",
+      "title": "IntMaster",
+      "description": "A user-friendly interface designed to provide real-time interviews with both theory and practical questions and keeping day to goals for user.",
+      "linkText": "View In Vercel",
+      "url": "https://int-master.vercel.app/"
+    }
+  ]
 }
-
